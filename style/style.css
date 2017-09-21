@@ -1,33 +1,25 @@
 body {
   min-width: 570px; }
   body main {
-    min-height: 850px;
-    width: 100%;
+    min-height: 840px;
     padding-left: 40px; }
     body main aside figure {
-      display: inline-block;
       margin: 20px 0 10px;
       padding: 0 !important; }
       body main aside figure img {
         height: 170px;
         width: 170px;
-        margin: 0;
-        padding: 0;
         border-radius: 50%; }
     body main aside nav {
       height: 360px;
       width: 170px;
       margin: 0 50px 0 0 !important;
-      padding: 0;
       border: 1px solid;
       border-radius: 10px; }
       body main aside nav ul {
-        margin: 0;
         padding: 0; }
         body main aside nav ul li {
-          list-style-type: none;
           margin-top: 25px;
-          margin-left: 10px;
           font-size: 20px;
           font-family: Helvetica, sans-serif; }
           body main aside nav ul li .icon {
@@ -35,22 +27,17 @@ body {
             width: 35px;
             margin-bottom: 5px; }
           body main aside nav ul li a {
-            color: black;
-            text-decoration: none; }
+            color: black; }
     body main .col-xl-10 .heading {
-      font-family: Helvetica, sans-serif;
-      font-size: 15px;
       margin-top: 20px;
       margin-right: 15px;
       border: 1px solid;
       border-radius: 10px;
-      padding: 5px; }
+      padding: 0 15px; }
       body main .col-xl-10 .heading h1 {
-        text-transform: uppercase;
-        font-family: "Comic Sans MS"; }
+        font-family: "Comic Sans MS", serif; }
       body main .col-xl-10 .heading p {
-        font-family: Helvetica, sans-serif;
-        font-size: 15px; }
+        font-family: Helvetica, sans-serif; }
     body main .col-xl-10 form {
       font-family: Helvetica, sans-serif;
       padding-right: 30px;
@@ -62,37 +49,23 @@ body {
       margin-top: 78px; }
       body main .col-xl-10 .contents article {
         margin-bottom: 10px;
+        font-family: Helvetica, sans-serif;
         border: 1px solid;
         border-radius: 10px; }
         body main .col-xl-10 .contents article h3 {
-          text-transform: uppercase;
-          font-family: "Comic Sans MS";
+          font-family: "Comic Sans MS", serif;
           padding-top: 5px; }
   body footer {
-    width: 100%;
     padding-left: 40px; }
     body footer hr {
       margin-right: 20px;
-      width: 100%;
       height: 1px;
-      background: black;
-      padding: 0; }
-    body footer nav {
-      margin: 0;
-      padding: 0; }
-      body footer nav ul {
-        margin: 0;
-        padding: 0; }
-        body footer nav ul li {
-          list-style-type: none;
-          display: inline-block; }
+      background: black; }
     body footer .footer-icon {
       height: 25px;
       width: 25px; }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  aside figure {
-    float: left !important; }
   aside nav {
     display: inline-block !important;
     height: auto !important;
@@ -101,11 +74,8 @@ body {
       width: 730px !important;
       margin-left: 40px !important; }
       aside nav ul li {
-        display: inline-block !important;
         margin-top: 80px !important; } }
 @media (min-width: 768px) and (max-width: 992px) {
-  aside figure {
-    float: left !important; }
   aside nav {
     display: inline-block !important;
     height: auto !important;
@@ -114,20 +84,16 @@ body {
       width: 490px !important;
       margin-left: 40px !important; }
       aside nav ul li {
-        display: inline-block !important;
         margin-top: 80px !important; } }
 @media (min-width: 576px) and (max-width: 768px) {
-  aside figure {
-    float: left !important; }
   aside nav {
     display: inline-block !important;
     height: auto !important;
     border: none !important; }
     aside nav ul {
       width: 290px !important;
-      margin-left: 10px !important; }
+      margin-left: 15px !important; }
       aside nav ul li {
-        display: inline-block !important;
         margin-top: 80px !important; } }
 @media (max-width: 576px) {
   aside figure {
@@ -136,14 +102,11 @@ body {
     margin-top: 75px !important;
     margin-left: 140px !important; }
   aside nav {
-    display: inline-block !important;
     height: auto !important;
     border: none !important; }
     aside nav ul {
       width: 290px !important;
       margin-left: 70px !important; }
-      aside nav ul li {
-        display: inline-block !important; }
 
   .col-xl-10 {
     margin-top: 200px !important; }
